@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset= "UTF-8">
+<title> Liver</title>
+<link rel="stylesheet" href="SamKoskeStyle.css">
+</head>
+
+<body>
+
+<div class="vertical-menu">
+  <a href="#" class="active"><strong>Home</strong></a>
+  <a href="#">Top 3 Lego sets all time </a>
+  <a href="#"> Fitness goals by body type</a>
+  <a href="#">Why <i style ="color:red;">liver</i> is the best food of all time</a>
+</div>
+<h1  class = "center"> Why liver is the best and also some code I wrote... </h1>
+<br>
+<p class = "center"> <br>The reason why liver is the best food to eat is because it it the most nutrient dense food on the planet. Quite simple.<br> </p>
+<h2 class = "center"> Here is some code I wrote in C: </h2>
+<code class ="center">
+  // Input array of string values<br>
+inputList := []string {"1", "2", "3"}<br>
+// instantiate empty list<br>
+outputList := make([]*string, 0)<br>
+
+for _, value := range inputList {<br>
+    // print memory address on each iteration<br>
+    fmt.Printf("address of %v: %v\n", value, &value)<br>
+    outputList = append(outputList, &value)<br>
+}<br>
+
+// show memory address of all variables<br>
+fmt.Printf("%v", outputList)<br>
+</code>
+</body>
+</html>
